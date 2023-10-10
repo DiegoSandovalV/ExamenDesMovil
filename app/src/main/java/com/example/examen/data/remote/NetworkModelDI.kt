@@ -5,6 +5,9 @@ import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
+/**
+ * Objeto que los llamados a la API
+ */
 object NetworkModelDI {
     private val gsonFactory = GsonConverterFactory.create()
     private val okHttpClient = OkHttpClient()
