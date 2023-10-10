@@ -1,5 +1,6 @@
 package com.example.examen.framework.viewmodel
 
+import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -19,6 +20,7 @@ class MovieViewModel: ViewModel() {
 
             CoroutineScope(Dispatchers.Main).launch {
                 val result: MovieContainer? = movieRequirement()
+                Log.d("Result Movies", result.toString())
                 movieLiveData.postValue(result!!)
             }
         }

@@ -13,12 +13,15 @@ import com.example.examen.R
 import com.example.examen.databinding.FragmentHomeBinding
 import com.example.examen.domain.model.movie.Movie
 import com.example.examen.framework.ui.adapters.MovieAdapter
+import com.example.examen.framework.viewmodel.MovieViewModel
 
 
 class HomeFragment : Fragment() {
 
     private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding!!
+
+    private val viewModel = MovieViewModel()
 
     private lateinit var recyclerView: RecyclerView
 
@@ -38,6 +41,12 @@ class HomeFragment : Fragment() {
 
         data = ArrayList()
 
+        initComponents(root)
+
+        initObservers()
+
+        viewModel.getMovies()
+
         return root
     }
 
@@ -45,11 +54,16 @@ class HomeFragment : Fragment() {
         recyclerView = root.findViewById(R.id.RVMovies)
     }
 
-    private fun setUpRecyclerView() {
+    private fun setUpRecyclerView(data: ArrayList<Movie>) {
         recyclerView.layoutManager = LinearLayoutManager(context)
         adapter.MovieAdapter(data, requireContext())
         recyclerView.adapter = adapter
     }
 
+    private fun initObservers(){
+        viewModel.movieLiveData.observe(viewLifecycleOwner) { movieContainer ->
+            setUpRecyclerView(movieContainer.results)
+        }
+    }
 
 }
