@@ -4,17 +4,21 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.examen.domain.model.movie.Movie
+import com.example.examen.domain.model.movie.MovieContainer
+import com.example.examen.domain.usecase.MovieRequirement
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 class MovieViewModel: ViewModel() {
-    val movieLiveData = MutableLiveData<Movie>()
+    val movieLiveData = MutableLiveData<MovieContainer>()
+    private val movieRequirement = MovieRequirement()
 
     fun getMovies() {
         viewModelScope.launch(Dispatchers.IO) {
-            val result: Movie? = movieListRequirement()
+
             CoroutineScope(Dispatchers.Main).launch {
+                val result: MovieContainer? = movieRequirement()
                 movieLiveData.postValue(result!!)
             }
         }
