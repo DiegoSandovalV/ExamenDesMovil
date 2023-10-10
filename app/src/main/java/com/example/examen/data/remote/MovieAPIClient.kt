@@ -6,10 +6,12 @@ class MovieAPIClient {
     private lateinit var api: MovieAPIService
 
     suspend fun getMovies(): MovieContainer?{
-        val token:String = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmZjhkZDc1NmUzMmI4YWNlZjYyZmQ2YzMwZmQwY2NmOSIsInN1YiI6IjY0ZWI5MzhiZTg5NGE2MDEzYmIxNjNjZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.6cGDTI8wql15qnVZErrd_6QRNaiRAi74pRD0LfOzVZM"
+        val mapHeaders = hashMapOf<String,String>()
+        val token:String = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmZjhkZDc1NmUzMmI4YWNlZjYyZmQ2YzMwZmQwY2NmOSIsInN1YiI6IjY0ZWI5MzhiZTg5NGE2MDEzYmIxNjNjZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.6cGDTI8wql15qnVZErrd_6QRNaiRAi74pRD0LfOzVZM"
+        mapHeaders["Authorization"] = token
         api = NetworkModelDI()
         return try {
-            api.getMovies(token)
+            api.getMovies(mapHeaders)
         } catch (e: Exception) {
             null
         }
