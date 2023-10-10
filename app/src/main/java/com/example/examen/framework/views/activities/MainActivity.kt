@@ -1,46 +1,40 @@
 package com.example.examen.framework.views.activities
 
+import android.app.Activity
 import android.os.Bundle
-import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.example.examen.framework.ui.theme.ExamenTheme
+import android.os.PersistableBundle
+import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
+import com.example.examen.R
+import com.example.examen.databinding.ActivityMainBinding
+import com.example.examen.framework.views.fragments.HomeFragment
 
-class MainActivity : ComponentActivity() {
+class MainActivity : AppCompatActivity() {
+
+    private lateinit var currentFragment: Fragment
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent {
-            ExamenTheme {
-                // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    Greeting("Android")
-                }
-            }
-        }
+
+        initBinding()
+        exchangeCurrentFragment(HomeFragment())
+
     }
+
+    private fun exchangeCurrentFragment(newFragment: Fragment){
+        currentFragment = newFragment
+
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.fragmentContainer,currentFragment)
+            .commit()
+    }
+
+    private fun initBinding(){
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+    }
+
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
 
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    ExamenTheme {
-        Greeting("Android")
-    }
-}
