@@ -11,10 +11,10 @@ import com.example.examen.framework.ui.viewholders.MovieViewHolder
 
 class MovieAdapter: RecyclerView.Adapter<MovieViewHolder>() {
     lateinit var context: Context
-    var data: ArrayList<Movie> = ArrayList()
+    var data: List<Movie> = ArrayList()
 
     @SuppressLint("NotConstructor")
-    fun MovieAdapter(basicData: ArrayList<Movie>, context: Context) {
+    fun MovieAdapter(basicData: List<Movie>, context: Context) {
         this.data = basicData
         this.context = context
     }
