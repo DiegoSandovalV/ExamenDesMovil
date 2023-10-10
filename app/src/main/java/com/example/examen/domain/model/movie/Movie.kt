@@ -1,5 +1,8 @@
 package com.example.examen.domain.model.movie
 
+/**
+ * Clase de pelicula individual
+ */
 data class Movie(
     val adult: Boolean,
     val backdrop_path: String,

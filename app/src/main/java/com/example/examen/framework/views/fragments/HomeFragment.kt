@@ -16,6 +16,7 @@ import com.example.examen.framework.viewmodel.MovieViewModel
 
 class HomeFragment : Fragment() {
 
+    // Variables Globales
     private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding!!
 
@@ -48,17 +49,27 @@ class HomeFragment : Fragment() {
         return root
     }
 
+    /**
+     * Inicializa los componentes de la vista
+     * @param root Vista raíz
+     */
     private fun initComponents(root: View) {
         recyclerView = root.findViewById(R.id.RVMovies)
     }
 
+    /**
+     * Inicializa los observadores de la vista
+     */
     private fun setUpRecyclerView(data: List<Movie>) {
         recyclerView.layoutManager = LinearLayoutManager(context)
         adapter.MovieAdapter(data, requireContext())
         recyclerView.adapter = adapter
     }
 
-    private fun initObservers(){
+    /**
+     * Inicializa los observadores de la vista
+     */
+    private fun initObservers() {
         viewModel.movieLiveData.observe(viewLifecycleOwner) { movieContainer ->
             setUpRecyclerView(movieContainer.results)
         }

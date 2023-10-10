@@ -31,7 +31,7 @@
                 android:id="@+id/CVSImage"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="20dp"
+                app:cardCornerRadius="12dp"
                 app:cardElevation="0dp"
                 app:cardUseCompatPadding="true"
                 android:layout_margin="10dp"
