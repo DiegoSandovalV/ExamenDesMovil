@@ -1,11 +1,9 @@
 package com.example.examen.framework.views.fragments
 
 import android.os.Bundle
-import android.provider.DocumentsContract.Root
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.databinding.DataBindingUtil.setContentView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -27,7 +25,7 @@ class HomeFragment : Fragment() {
 
     private val adapter: MovieAdapter = MovieAdapter()
 
-    private lateinit var data: ArrayList<Movie>
+    private lateinit var data: List<Movie>
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -54,7 +52,7 @@ class HomeFragment : Fragment() {
         recyclerView = root.findViewById(R.id.RVMovies)
     }
 
-    private fun setUpRecyclerView(data: ArrayList<Movie>) {
+    private fun setUpRecyclerView(data: List<Movie>) {
         recyclerView.layoutManager = LinearLayoutManager(context)
         adapter.MovieAdapter(data, requireContext())
         recyclerView.adapter = adapter

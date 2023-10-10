@@ -19,7 +19,7 @@ class MovieViewModel: ViewModel() {
         viewModelScope.launch(Dispatchers.IO) {
 
             CoroutineScope(Dispatchers.Main).launch {
-                val result: MovieContainer? = movieRequirement()
+                val result: MovieContainer? = MovieRequirement().invoke()
                 Log.d("Result Movies", result.toString())
                 movieLiveData.postValue(result!!)
             }

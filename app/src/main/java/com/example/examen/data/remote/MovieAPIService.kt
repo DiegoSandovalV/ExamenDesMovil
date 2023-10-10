@@ -6,5 +6,6 @@ import retrofit2.http.Header
 
 interface MovieAPIService {
     @GET("movie/popular")
-    suspend fun getMovies(@Header("Authorization: ") authorizationHeader: String): MovieContainer
+    suspend fun getMovies(@Header("Authorization") authorizationHeader: String): MovieContainer
 }
+
