@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-mergeDebugResources-47:\\layout\\main_activity.xml",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\layout\\main_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-mergeDebugResources-47:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-mergeDebugResources-47:\\layout\\fargment_home.xml",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\layout\\fargment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-mergeDebugResources-47:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.examen.app-mergeDebugResources-47:/layout/movie_item.xml",
+        "source": "com.example.examen.app-main-50:/layout/movie_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-mergeDebugResources-47:\\layout\\movie_item.xml",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\layout\\movie_item.xml"
+    }
+]

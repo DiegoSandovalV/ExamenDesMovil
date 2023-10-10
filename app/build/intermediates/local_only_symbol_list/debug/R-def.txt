@@ -1,0 +1,33 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color blue
+color purple
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable baseline_movie_24
+drawable baseline_star_24
+drawable gradient_background
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id CVSImage
+id IVPhoto
+id MovieItem
+id RVMovies
+id TVLanguage
+id TVName
+id TVRating
+id fragmentContainer
+layout activity_main
+layout fragment_home
+layout movie_item
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.Examen
+xml backup_rules
+xml data_extraction_rules

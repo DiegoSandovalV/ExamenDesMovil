@@ -1,0 +1,6 @@
+com.example.examen.test.app-annotation-experimental-1.3.0-0 C:\Users\diego\.gradle\caches\transforms-3\29bd92abbe0000738280b240e0f0b698\transformed\annotation-experimental-1.3.0\res
+com.example.examen.test.app-core-1.5.0-1 C:\Users\diego\.gradle\caches\transforms-3\43b8762b017791d630d7e735b23208c5\transformed\core-1.5.0\res
+com.example.examen.test.app-androidTest-2 C:\Users\diego\Documents\Tec\Semestre5\Desarrollo_Software_Seguridad_Redes\ExamenDesMovil\app\build\generated\res\resValues\androidTest\debug
+com.example.examen.test.app-mergeDebugAndroidTestResources-3 C:\Users\diego\Documents\Tec\Semestre5\Desarrollo_Software_Seguridad_Redes\ExamenDesMovil\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.examen.test.app-mergeDebugAndroidTestResources-4 C:\Users\diego\Documents\Tec\Semestre5\Desarrollo_Software_Seguridad_Redes\ExamenDesMovil\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.examen.test.app-merged_res-5 C:\Users\diego\Documents\Tec\Semestre5\Desarrollo_Software_Seguridad_Redes\ExamenDesMovil\app\build\intermediates\merged_res\debugAndroidTest

@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\layout_movie_item.xml.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\layout\\movie_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.examen.app-merged_res-48:/drawable_baseline_star_24.xml.flat",
+        "source": "com.example.examen.app-main-50:/drawable/baseline_star_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\drawable_gradient_background.xml.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\drawable\\gradient_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\drawable_rounded_img.xml.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\drawable\\rounded_img.xml"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\drawable_baseline_star_24.xml.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\drawable\\baseline_star_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\layout_fargment_home.xml.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\layout\\fargment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\layout_main_activity.xml.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\layout\\main_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.examen.app-merged_res-48:/drawable_baseline_movie_24.xml.flat",
+        "source": "com.example.examen.app-main-50:/drawable/baseline_movie_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\drawable_baseline_movie_24.xml.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\drawable\\baseline_movie_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-merged_res-48:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\diego\\.gradle\\daemon\\8.0\\com.example.examen.app-main-50:\\mipmap-mdpi\\ic_launcher.webp"
+    }
+]
